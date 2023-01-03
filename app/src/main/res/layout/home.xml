@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="60dp"
+        app:queryHint="Search here..."
+        app:iconifiedByDefault="false"
+        tools:ignore="MissingConstraints">
+
+    </androidx.appcompat.widget.SearchView>
+
+    <Button
+        android:id="@+id/btnAllWord"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:background="@color/orange"
+        android:padding="10dp"
+        android:text="All Worlds"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/btnSaveWord"
+        android:layout_width="168dp"
+        android:layout_height="54dp"
+        android:background="@color/orange"
+        android:text="Save Worlds"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Button
+        android:id="@+id/btnNA"
+        android:layout_width="167dp"
+        android:layout_height="51dp"
+        android:background="@color/orange"
+        android:text="N/A"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="166dp"
+        android:layout_height="51dp"
+        android:background="@color/orange"
+        android:padding="10dp"
+        android:text="About"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="531dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

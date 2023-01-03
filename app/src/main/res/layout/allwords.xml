@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginStart="10sp"
+    android:layout_marginEnd="10sp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnWordName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Word name sub description"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="160dp"
+        android:drawableLeft="@drawable/ic_favorite"/>
+    <Button
+        android:id="@+id/btnDeleteFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Delete"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="240dp"
+        android:drawableLeft="@drawable/ic_favorite"/>
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="320dp"
+        android:drawableLeft="@drawable/ic_favorite"/>
+
+    <TextView
+        android:id="@+id/textFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite words"
+        android:textSize="38dp"
+        android:textColor="@color/orange"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="42dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
